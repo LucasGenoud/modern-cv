@@ -216,8 +216,8 @@
   }
   
   let name = {
-    align(center)[
-      #pad(bottom: 5pt)[
+    align(left)[
+      #pad(bottom: 8pt)[
         #block[
           #set text(
             size: 32pt,
@@ -234,10 +234,10 @@
   let positions = {
     set text(
       accent-color,
-      size: 9pt,
+      size: 12pt,
       weight: "regular",
     )
-    align(center)[
+    align(left)[
       #smallcaps[
         #author.positions.join(
           text[#"  "#sym.dot.c#"  "],
@@ -248,22 +248,22 @@
   
   let address = {
     set text(
-      size: 9pt,
+      size: 12pt,
       weight: "bold",
     )
-    align(center)[
+    align(left)[
       #author.address
     ]
   }
   
   let contacts = {
-    set box(height: 9pt)
+    set box(height: 12pt)
     
     let separator = box(width: 5pt)
     
-    align(center)[
+    align(left)[
       #set text(
-        size: 9pt,
+        size: 12pt,
         weight: "regular",
         style: "normal",
       )
@@ -287,19 +287,32 @@
             #separator
             #linkedin-icon
             #box[
-              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.firstname #author.lastname]
+              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
             ]
           ]
         ]
       ]
     ]
   }
+  if author.picture != none {
+   grid(
+  columns: (140pt, auto),
+  rows: (auto),
+  [#image(author.picture, width: 120pt)],
+  [ #name
+  #positions
+  #address
+  #contacts]
+)
+  } else {
+ name
+        positions
+        address
+        contacts
+  }
+
+body
   
-  name
-  positions
-  address
-  contacts
-  body
 }
 
 /// The base item for resume entries. 

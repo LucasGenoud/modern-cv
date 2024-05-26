@@ -1,4 +1,5 @@
 #import "@local/modern-cv:0.3.1": *
+
 #show: resume.with(
   author: (
     firstname: "Lucas",
@@ -12,6 +13,7 @@
     positions: (
       "Software Engineer",
     ),
+    picture:"profile.jpg"
   ),
   date: datetime.today().display(),
   language: "en",
@@ -19,19 +21,22 @@
   colored-headers: true
 )
 
-
 = Skills
 #resume-skill-item(
   "languages",
-  (strong("JavaScript"), strong("Java"),strong("Golang"), "Python", "C#","C++"),
+  (strong("JavaScript"), strong("Java"),strong("Golang"), "Swift", "Kotlin", "Python", "C#","C++"),
 ) 
 #resume-skill-item(
   "Frameworks",
-  (strong("Vue.js"), "Springboot"),
+  (strong("Vue.js"), strong("Springboot"), "Angular"),
 )
 #resume-skill-item(
   "DevOps",
-  (strong("Docker"), strong("Kubernetes")),
+  (strong("Docker"), strong("Kubernetes"), strong("Gitlab CI/CD")),
+)
+#resume-skill-item(
+  "Miscellaneous",
+  ("Machine learning / deep learning", "" )
 )
 #resume-skill-item("Spoken Languages", (strong("French"), strong("English"), "German"))
 
@@ -39,11 +44,10 @@
 #resume-entry(
   title: "Auxiliary",
   location: "Fribourg",
-  date: "2018 - 2020",
-  description: "Part time Auxiliary for the iSIS institute  "
+  date: "August 2022 - Present",
+  description: "Part time Auxiliary for the iSIS institute "
 )
-#resume-item[
-]
+#resume-item[Conception and improvement of diverse applications in VUE.JS AND FLUTTER]
 #v(10pt)
 
 #resume-entry(
@@ -60,7 +64,7 @@ Development of a VUE.JS web application specialized in the creation of Gantt dia
 
 #resume-entry(
   title: "Computer science apprentice",
-  location: "Fribourg",
+  location: "Fribourg, Villaz-Saint-Pierre",
   date: "2014 - 2018",
   description: "Horizon France SAS",
 )
@@ -74,21 +78,21 @@ Development of small C\# applications, client support, website maintenance and I
 = Projects
 
 #resume-entry(
-  title: "Thread Pool C++ Library",
-  location: [#github-link("DeveloperPaul123/thread-pool")],
-  date: "May 2021 - Present",
+  title: "Ultimate Tic Tac Toe game with  AI",
+  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
+  date: "September 2023 - January 2024",
   description: "Designer/Developer",
 )
 
 #resume-item[
-  - Designed and implemented a thread pool library in C++ using the latest C++20 and C++23 features.
-  - Wrote extensive documentation and unit tests for the library and published it on Github.
+  - Developed an AI for the game Ultimate Tic Tac Toe in Go, using #strong("Monte Carlo Tree Search") for decision making.
+  - Implemented game logic, including win condition checking and valid move generation.
+  - Utilized #strong("Ebiten") library for game graphics and user interaction.
 ]
 
 #resume-entry(
-  title: "Event Bus C++ Library",
-  location: github-link("DeveloperPaul123/eventbus"),
-  date: "Sep. 2019 - Present",
+  title: "Bikers Airquality Webapp",
+  date: "February 2024 - Present",
   description: "Designer/Developer",
 )
 
@@ -124,3 +128,5 @@ Development of small C\# applications, client support, website maintenance and I
   date: "August 2013 - December 2013",
   description: "English courses",
 )
+= Hobbies
+Hiking, video games, self-hosting, cinema, traveling
