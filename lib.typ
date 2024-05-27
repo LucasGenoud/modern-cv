@@ -59,7 +59,7 @@
 /// -> none
 #let github-link(github-path) = {
   set box(height: 11pt)
-  
+
   align(right + horizon)[
     #fa-icon("github", fa-set: "Brands", fill: color-darkgray) #link(
       "https://github.com/" + github-path,
@@ -78,7 +78,7 @@
   body
 }
 
-/// Right section of a tertiaty headers. 
+/// Right section of a tertiaty headers.
 /// - body (content): The body of the right header
 #let tertiary-right-header(body) = {
   set text(
@@ -121,7 +121,7 @@
 
 /// Resume template that is inspired by the Awesome CV Latex template by posquit0. This template can loosely be considered a port of the original Latex template.
 ///
-/// The original template: https://github.com/posquit0/Awesome-CV 
+/// The original template: https://github.com/posquit0/Awesome-CV
 ///
 /// - author (content): Structure that takes in all the author's information
 /// - date (string): The date the resume was created
@@ -141,14 +141,14 @@
   if type(accent-color) == "string" {
     accent-color = rgb(accent-color)
   }
-  
+
   let lang_data = toml("lang.toml")
-  
+
   set document(
     author: author.firstname + " " + author.lastname,
     title: "resume",
   )
-  
+
   set text(
     font: ("Source Sans Pro", "Source Sans 3"),
     lang: language,
@@ -156,26 +156,25 @@
     fill: color-darkgray,
     fallback: true,
   )
-  
+
   set page(
     paper: "a4",
     margin: (left: 15mm, right: 15mm, top: 10mm, bottom: 10mm),
-
     footer-descent: 0pt,
   )
-  
+
   // set paragraph spacing
   show par: set block(
     above: 0.75em,
     below: 0.75em,
   )
   set par(justify: true)
-  
+
   set heading(
     numbering: none,
     outlined: false,
   )
-  
+
   show heading.where(level: 1): it => [
     #set block(
       above: 1em,
@@ -185,7 +184,7 @@
       size: 16pt,
       weight: "regular",
     )
-    
+
     #align(left)[
       #let color = if colored-headers {
         accent-color
@@ -196,7 +195,7 @@
       #box(width: 1fr, line(length: 100%))
     ]
   ]
-  
+
   show heading.where(level: 2): it => {
     set text(
       color-darkgray,
@@ -206,7 +205,7 @@
     )
     it.body
   }
-  
+
   show heading.where(level: 3): it => {
     set text(
       size: 10pt,
@@ -214,9 +213,9 @@
     )
     smallcaps[#it.body]
   }
-  
+
   let name = {
-    align(left)[
+   align(left)[
       #pad(bottom: 8pt)[
         #block[
           #set text(
@@ -230,12 +229,12 @@
       ]
     ]
   }
-  
+
   let positions = {
     set text(
       accent-color,
-      size: 12pt,
-      weight: "regular",
+      size: 15pt,
+      weight: "bold",
     )
     align(left)[
       #smallcaps[
@@ -245,22 +244,22 @@
       ]
     ]
   }
-  
+
   let address = {
     set text(
       size: 12pt,
-      weight: "bold",
+      weight: "regular",
     )
     align(left)[
       #author.address
     ]
   }
-  
+
   let contacts = {
     set box(height: 12pt)
-    
+
     let separator = box(width: 5pt)
-    
+
     align(left)[
       #set text(
         size: 12pt,
@@ -294,28 +293,31 @@
       ]
     ]
   }
-  if author.picture != none {
-   grid(
-  columns: (140pt, auto),
-  rows: (auto),
-  [#image(author.picture, width: 120pt)],
-  [ #name
-  #positions
-  #address
-  #contacts]
-)
+  if author.profile-picture != none {
+    grid(
+      columns: (120pt, auto),
+      rows: (120pt),
+      gutter: 10pt,
+      [#author.profile-picture] ,
+      [       
+        #name
+        #positions
+        #address
+        #contacts
+      ],
+    )
   } else {
- name
-        positions
-        address
-        contacts
+    name
+    positions
+    address
+    contacts
   }
 
-body
-  
+  body
+
 }
 
-/// The base item for resume entries. 
+/// The base item for resume entries.
 /// This formats the item for the resume entries. Typically your body would be a bullet list of items. Could be your responsibilities at a company or your academic achievements in an educational background section.
 /// - body (content): The body of the resume entry
 #let resume-item(body) = {
@@ -374,7 +376,7 @@ body
 #let resume-skill-item(category, items) = {
   set block(below: 0.65em)
   set pad(top: 2pt)
-  
+
   pad[
     #grid(
       columns: (20fr, 80fr),
@@ -399,7 +401,7 @@ body
 
 /// ---- Coverletter ----
 
-/// Cover letter template that is inspired by the Awesome CV Latex template by posquit0. This template can loosely be considered a port of the original Latex template. 
+/// Cover letter template that is inspired by the Awesome CV Latex template by posquit0. This template can loosely be considered a port of the original Latex template.
 /// This coverletter template is designed to be used with the resume template.
 /// - author (content): Structure that takes in all the author's information
 /// - profile-picture (image): The profile picture of the author. This will be cropped to a circle and should be square in nature.
@@ -417,15 +419,15 @@ body
   if type(accent-color) == "string" {
     accent-color = rgb(accent-color)
   }
-  
+
   // language data
   let lang_data = toml("lang.toml")
-  
+
   set document(
     author: author.firstname + " " + author.lastname,
     title: "cover-letter",
   )
-  
+
   set text(
     font: ("Source Sans Pro"),
     lang: language,
@@ -433,7 +435,7 @@ body
     fill: color-darkgray,
     fallback: true,
   )
-  
+
   set page(
     paper: "a4",
     margin: (left: 15mm, right: 15mm, top: 10mm, bottom: 10mm),
@@ -457,19 +459,19 @@ body
     ],
     footer-descent: 0pt,
   )
-  
+
   // set paragraph spacing
   show par: set block(
     above: 0.75em,
     below: 0.75em,
   )
   set par(justify: true)
-  
+
   set heading(
     numbering: none,
     outlined: false,
   )
-  
+
   show heading: it => [
     #set block(
       above: 1em,
@@ -479,13 +481,13 @@ body
       size: 16pt,
       weight: "regular",
     )
-    
+
     #align(left)[
       #text[#strong[#text(accent-color)[#it.body.text]]]
       #box(width: 1fr, line(length: 100%))
     ]
   ]
-  
+
   let name = {
     align(right)[
       #pad(bottom: 5pt)[
@@ -501,7 +503,7 @@ body
       ]
     ]
   }
-  
+
   let positions = {
     set text(
       accent-color,
@@ -516,7 +518,7 @@ body
       ]
     ]
   }
-  
+
   let address = {
     set text(
       size: 9pt,
@@ -527,12 +529,12 @@ body
       #author.address
     ]
   }
-  
+
   let contacts = {
     set box(height: 9pt)
-    
+
     let separator = [#box(sym.bar.v)]
-    
+
     align(right)[
       #set text(
         size: 8pt,
@@ -570,7 +572,7 @@ body
       ]
     ]
   }
-  
+
   let letter-heading = {
     grid(
       columns: (1fr, 2fr),
@@ -593,7 +595,7 @@ body
       ],
     )
   }
-  
+
   let letter-conclusion = {
     align(bottom)[
       #pad(bottom: 2em)[
@@ -606,7 +608,7 @@ body
       ]
     ]
   }
-  
+
   // actual content
   letter-heading
   body
@@ -628,7 +630,7 @@ body
     ][
       #text(weight: "light", style: "italic", size: 9pt)[#date]
     ]
-    
+
     #pad(top: 0.65em, bottom: 0.65em)[
       #text(weight: "regular", fill: color-gray, size: 9pt)[
         #smallcaps[#entity-info.name] \
@@ -644,7 +646,7 @@ body
 /// - addressee (string): The person you are addressing the letter to
 #let letter-heading(job-position: "", addressee: "") = {
   let lang_data = toml("lang.toml")
-  
+
   // TODO: Make this adaptable to content
   underline(evade: false, stroke: 0.5pt, offset: 0.3em)[
     #text(weight: "bold", size: 12pt)[Job Application for #job-position]

@@ -13,7 +13,6 @@
     positions: (
       "Software Engineer",
     ),
-    picture:"profile.jpg"
   ),
   date: datetime.today().display(),
   language: "en",
@@ -47,7 +46,7 @@
   date: "August 2022 - Present",
   description: "Part time Auxiliary for the iSIS institute "
 )
-#resume-item[Conception and improvement of diverse applications in VUE.JS AND FLUTTER]
+#resume-item[Conception and improvement of diverse applications in VUE.JS an Flutter.]
 #v(10pt)
 
 #resume-entry(
@@ -69,7 +68,7 @@ Development of a VUE.JS web application specialized in the creation of Gantt dia
   description: "Horizon France SAS",
 )
 #resume-item[
-Development of small C\# applications, client support, website maintenance and IT asset management
+Development of small C\# applications, client support, website maintenance and IT asset management.
 ]
 #v(10pt)
 
@@ -87,7 +86,7 @@ Development of small C\# applications, client support, website maintenance and I
 #resume-item[
   - Developed an AI for the game Ultimate Tic Tac Toe in Go, using #strong("Monte Carlo Tree Search") for decision making.
   - Implemented game logic, including win condition checking and valid move generation.
-  - Utilized #strong("Ebiten") library for game graphics and user interaction.
+  - Used the #strong("Ebiten") library for game graphics and user interaction.
 ]
 
 #resume-entry(
@@ -97,8 +96,8 @@ Development of small C\# applications, client support, website maintenance and I
 )
 
 #resume-item[
-  - Designed and implemented an event bus library using C++17.
-  - Wrote detailed documentation and unit tests for the library and published it on Github.
+  - Usage of real-time air pollution data to .
+  - 
 ]
 
 
