@@ -1,4 +1,4 @@
-#import "@local/modern-cv:0.3.1": *
+#import "lib.typ": *
 
 #show: resume.with(
   author: (
@@ -25,7 +25,7 @@
 #resume-skill-item(
   "languages",
   (strong("JavaScript"), strong("Java"),strong("Golang"), "Swift", "Kotlin", "Python", "C#","C++"),
-) 
+)
 #resume-skill-item(
   "Frameworks",
   (strong("Vue.js"), strong("Springboot"), "Angular"),
