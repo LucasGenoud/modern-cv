@@ -10,24 +10,18 @@
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
     address: "Vuadens, Fribourg",
-    positions: (
-      "Software Engineer",
-    ),
+    positions: ("Software Engineer",),
   ),
   date: datetime.today().display(),
   language: "en",
   accent-color: "#007BA7",
-  colored-headers: true
+  colored-headers: true,
 )
 
 = Skills
 #resume-skill-item(
   "languages",
-  (strong("JavaScript"), strong("Java"),strong("Golang"), "Swift", "Kotlin", "Python", "C#","C++"),
-)
-#resume-skill-item(
-  "Frameworks",
-  (strong("Vue.js"), strong("Springboot"), "Angular"),
+  (strong("JavaScript"), strong("Java"), strong("Golang"), "Swift", "Kotlin", "Python", "C#", "C++"),
 )
 #resume-skill-item(
   "DevOps",
@@ -35,7 +29,7 @@
 )
 #resume-skill-item(
   "Miscellaneous",
-  ("Machine learning / deep learning", "" )
+  (strong("Vue.js"), strong("Springboot"), "Flutter", "Angular", "Machine learning", "deep learning"),
 )
 #resume-skill-item("Spoken Languages", (strong("French"), strong("English"), "German"))
 
@@ -44,7 +38,7 @@
   title: "Auxiliary",
   location: "Fribourg",
   date: "August 2022 - Present",
-  description: "Part time Auxiliary for the iSIS institute "
+  description: "Part time Auxiliary for the iSIS institute ",
 )
 #resume-item[Conception and improvement of diverse applications in VUE.JS an Flutter.]
 #v(10pt)
@@ -53,13 +47,12 @@
   title: "Fullstack developer",
   location: "Fribourg",
   date: "2018 - 2020",
-  description: "GANTT.IO"
+  description: "GANTT.IO",
 )
 #resume-item[
-Development of a VUE.JS web application specialized in the creation of Gantt diagrams.
+  Development of a VUE.JS web application specialized in the creation of Gantt diagrams.
 ]
 #v(10pt)
-
 
 #resume-entry(
   title: "Computer science apprentice",
@@ -68,18 +61,16 @@ Development of a VUE.JS web application specialized in the creation of Gantt dia
   description: "Horizon France SAS",
 )
 #resume-item[
-Development of small C\# applications, client support, website maintenance and IT asset management.
+  Development of small C\# applications, client support, website maintenance and IT asset management.
 ]
 #v(10pt)
-
-
 
 = Projects
 
 #resume-entry(
   title: "Ultimate Tic Tac Toe game with  AI",
   location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "September 2023 - January 2024",
+  date: "September 223 - January 2024",
   description: "Designer/Developer",
 )
 
@@ -91,16 +82,12 @@ Development of small C\# applications, client support, website maintenance and I
 
 #resume-entry(
   title: "Bikers Airquality Webapp",
-  date: "February 2024 - Present",
-  description: "Designer/Developer",
+  date: "February 2024 - May 2024",
+  description: "Semester project",
 )
-
 #resume-item[
-  - Usage of real-time air pollution data to .
-  - 
+  - Usage of real-time air pollution data to create itineraries with lower air pollution levels.
 ]
-
-
 
 = Education
 #resume-entry(

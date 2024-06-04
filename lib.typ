@@ -215,7 +215,7 @@
   }
 
   let name = {
-   align(left)[
+    align(left)[
       #pad(bottom: 8pt)[
         #block[
           #set text(
@@ -295,11 +295,11 @@
   }
   if author.profile-picture != none {
     grid(
-      columns: (120pt, auto),
-      rows: (120pt),
+      columns: (100pt, auto),
+      rows: (100pt),
       gutter: 10pt,
-      [#author.profile-picture] ,
-      [       
+      [#author.profile-picture],
+      [
         #name
         #positions
         #address
