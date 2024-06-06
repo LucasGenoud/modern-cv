@@ -21,7 +21,7 @@
 = Skills
 #resume-skill-item(
   "languages",
-  (strong("JavaScript"), strong("Java"), strong("Golang"), "Swift", "Kotlin", "Python", "C#", "C++"),
+  (strong("JavaScript"), strong("Java"), strong("Golang"), "Swift", "Kotlin", "SQL", "Python", "C#", "C++"),
 )
 #resume-skill-item(
   "DevOps",
@@ -29,18 +29,27 @@
 )
 #resume-skill-item(
   "Miscellaneous",
-  (strong("Vue.js"), strong("Springboot"), "Flutter", "Angular", "Machine learning", "deep learning"),
+  (
+    strong("Vue.js"),
+    strong("Springboot"),
+    "Svelte",
+    "Machine learning",
+    "deep learning",
+    "Flutter",
+    "Angular",
+    "Unity",
+  ),
 )
-#resume-skill-item("Spoken Languages", (strong("French"), strong("English"), "German"))
+#resume-skill-item("Spoken languages", (strong("French"), strong("English"), "German"))
 
-= Experience
+= Experiences
 #resume-entry(
   title: "Auxiliary",
   location: "Fribourg",
   date: "August 2022 - Present",
   description: "Part time Auxiliary for the iSIS institute ",
 )
-#resume-item[Conception and improvement of diverse applications in VUE.JS an Flutter.]
+#resume-item[Conception and improvement of diverse applications in VUE.JS and Flutter.]
 #v(10pt)
 
 #resume-entry(
@@ -87,20 +96,21 @@
 )
 #resume-item[
   - Usage of real-time air pollution data to create itineraries with lower air pollution levels.
+  - Developed using a Svelte frontend, nodeJS backend and a PostgreSQL database.
 ]
 
 = Education
 #resume-entry(
-  title: "HEIA-FR",
+  title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
   location: "Fribourg",
   date: "2021 - Today",
-  description: "B.S. in software engineering ",
+  description: "Bachelor of Science in software engineering ",
 )
 #resume-entry(
   title: "EMF",
   location: "Fribourg",
   date: "September 2020 - July 2021",
-  description: "Federal Vocational Baccalaureate (FVB)",
+  description: "Technical Federal Vocational Baccalaureate (FVB)",
 )
 #resume-entry(
   title: "EPAI",
