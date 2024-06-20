@@ -21,26 +21,26 @@
 = Skills
 #resume-skill-item(
   "languages",
-  (strong("JavaScript"), strong("Java"), strong("Golang"), "Swift", "Kotlin", "SQL", "Python", "C#", "C++"),
+  ("JavaScript", "Java", "Golang", "Python", "Swift", "Kotlin", "SQL", "C#", "C++"),
 )
 #resume-skill-item(
-  "DevOps",
-  (strong("Docker"), strong("Kubernetes"), strong("Gitlab CI/CD")),
-)
-#resume-skill-item(
-  "Miscellaneous",
+  "Hard skills",
   (
-    strong("Vue.js"),
-    strong("Springboot"),
+    "Vue.js",
+    "Springboot",
     "Svelte",
     "Machine learning",
     "deep learning",
     "Flutter",
     "Angular",
     "Unity",
+    "Docker",
+    "Kubernetes",
+    "Gitlab CI/CD",
+    "Android / iOS development",
   ),
 )
-#resume-skill-item("Spoken languages", (strong("French"), strong("English"), "German"))
+#resume-skill-item("Spoken languages", ("French", "English", "German"))
 
 = Experiences
 #resume-entry(
