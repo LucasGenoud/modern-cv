@@ -21,7 +21,7 @@
 = Skills
 #resume-skill-item(
   "languages",
-  ("JavaScript", "Java", "Golang", "Python", "Swift", "Kotlin", "SQL", "C#", "C++"),
+  ("JavaScript / Node.js", "Java", "Golang", "Python", "Swift", "Kotlin", "SQL", "C#", "C++"),
 )
 #resume-skill-item(
   "Hard skills",
@@ -29,18 +29,19 @@
     "Vue.js",
     "Springboot",
     "Svelte",
-    "Machine learning",
-    "deep learning",
+    "Express.js",
+    "Android / iOS development",
     "Flutter",
     "Angular",
-    "Unity",
     "Docker",
     "Kubernetes",
     "Gitlab CI/CD",
-    "Android / iOS development",
+    "Machine learning",
+    "deep learning",
+    "Unity",
   ),
 )
-#resume-skill-item("Spoken languages", ("French", "English", "German"))
+#resume-skill-item("Spoken languages", (strong("French"), strong("English"), "German"))
 
 = Experiences
 #resume-entry(
@@ -96,7 +97,7 @@
 )
 #resume-item[
   - Usage of real-time air pollution data to create itineraries with lower air pollution levels.
-  - Developed using a Svelte frontend, nodeJS backend and a PostgreSQL database.
+  - Developed using a Svelte frontend, Node.js backend and a PostgreSQL database.
 ]
 
 = Education
