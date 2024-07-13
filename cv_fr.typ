@@ -10,7 +10,7 @@
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
     address: "Vuadens, Fribourg",
-    positions: ("Ingénieur logiciel",),
+    positions: ("Ingénieur en informatique logicielle",),
   ),
   date: datetime.today().display(),
   language: "fr",
@@ -20,8 +20,19 @@
 
 = Compétences
 #resume-skill-item(
-  "Langage",
-  (strong("JavaScript / Node.js"), strong("Java"), strong("Golang"), "Python", "Swift", "Kotlin", "SQL", "C++", "C#"),
+  "Langages",
+  (
+    strong("JavaScript / Node.js"),
+    strong("Java"),
+    strong("Golang"),
+    "TypeScript",
+    "Python",
+    "Swift",
+    "Kotlin",
+    "SQL",
+    "C++",
+    "C#",
+  ),
 )
 #resume-skill-item(
   "Technologies",
@@ -78,22 +89,22 @@
 = Projets
 
 #resume-entry(
-  title: "Ultimate Tic Tac Toe game avec IA",
+  title: "Jeu 'ultimate Tic Tac Toe' avec IA",
   location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "Septembre 223 - Janvier 2024",
+  date: "Septembre 2023 - Janvier 2024",
   description: "Developpeur/Designer",
 )
 
 #resume-item[
   - Développement d'une IA pour le jeu Ultimate Tic Tac Toe en Go, utilisant #strong("Monte Carlo Tree Search") pour la prise de décision.
-  - Implémentation de la logique du jeu, incluant la vérification des conditions de victoire et la génération de mouvements valides.
+  - Implémentation de la logique du jeu, vérification des conditions de victoire et la génération de mouvements valides.
   - Utilisation de la bibliothèque #strong("Ebiten") pour les graphismes du jeu et l'interaction utilisateur.
 ]
 
 #resume-entry(
   title: "Bikers Airquality Webapp",
-  date: "Février 2024 - Mai 2024",
-  description: "Semester project",
+  date: "Février 2024 - Juillet 2024",
+  description: "Projet de semestre et de bachelor",
 )
 #resume-item[
   - Utilisation de données de pollution de l'air en temps réel pour créer des itinéraires avec des niveaux de pollution plus faibles.
@@ -104,7 +115,7 @@
 #resume-entry(
   title: "Haute école d'ingénierie et d'architecture de Fribourg (HEIA-FR)",
   location: "Fribourg",
-  date: "2021 Septembre - 2024 Juillet",
+  date: "Septembre 2021 - Juillet 2024",
   description: "Bachelor en ingénierie logicielle",
 )
 #resume-entry(

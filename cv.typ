@@ -21,7 +21,7 @@
 = Skills
 #resume-skill-item(
   "languages",
-  ("JavaScript / Node.js", "Java", "Golang", "Python", "Swift", "Kotlin", "SQL", "C#", "C++"),
+  ("JavaScript / Node.js", "Java", "Golang", "Python", "TypeScript", "Swift", "Kotlin", "SQL", "C#", "C++"),
 )
 #resume-skill-item(
   "Hard skills",
@@ -92,12 +92,12 @@
 
 #resume-entry(
   title: "Bikers Airquality Webapp",
-  date: "February 2024 - May 2024",
-  description: "Semester project",
+  date: "February 2024 - July 2024",
+  description: "Semester and Bachelor project",
 )
 #resume-item[
   - Usage of real-time air pollution data to create itineraries with lower air pollution levels.
-  - Developed using a Svelte frontend, Node.js backend and a PostgreSQL database.
+  - Developed using a Svelte frontend, Node.js backend and a PostgreSQL database, deployed on Kubernetes.
 ]
 
 = Education
