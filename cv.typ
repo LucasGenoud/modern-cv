@@ -47,7 +47,7 @@
 #resume-entry(
   title: "Auxiliary",
   location: "Fribourg",
-  date: "August 2022 - Present",
+  date: "August 2022 - June 2024",
   description: "Part time Auxiliary for the iSIS institute ",
 )
 #resume-item[Conception and improvement of diverse applications in VUE.JS and Flutter.]
@@ -56,18 +56,18 @@
 #resume-entry(
   title: "Fullstack developer",
   location: "Fribourg",
-  date: "2018 - 2020",
+  date: "August 2018 - August 2020",
   description: "GANTT.IO",
 )
 #resume-item[
-  Development of a VUE.JS web application specialized in the creation of Gantt diagrams.
+  Development of a web application specialized in the creation of Gantt diagrams.
 ]
 #v(10pt)
 
 #resume-entry(
   title: "Computer science apprentice",
   location: "Fribourg, Villaz-Saint-Pierre",
-  date: "2014 - 2018",
+  date: "September 2014 - July 2018",
   description: "Horizon France SAS",
 )
 #resume-item[
@@ -80,12 +80,12 @@
 #resume-entry(
   title: "Ultimate Tic Tac Toe game with  AI",
   location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "September 223 - January 2024",
+  date: "September 2023 - January 2024",
   description: "Designer/Developer",
 )
 
 #resume-item[
-  - Developed an AI for the game Ultimate Tic Tac Toe in Go, using #strong("Monte Carlo Tree Search") for decision making.
+  - Developed an AI for the game Ultimate Tic Tac Toe in #strong("Go"), using #strong("Monte Carlo Tree Search") for decision making.
   - Implemented game logic, including win condition checking and valid move generation.
   - Used the #strong("Ebiten") library for game graphics and user interaction.
 ]
@@ -96,15 +96,15 @@
   description: "Semester and Bachelor project",
 )
 #resume-item[
-  - Usage of real-time air pollution data to create itineraries with lower air pollution levels.
-  - Developed using a Svelte frontend, Node.js backend and a PostgreSQL database, deployed on Kubernetes.
+  - Using real time air PM2.5 concentration measurements, historical traffic data and elevation data, the app calculates the best route with low air pollution and elevation gain.
+  - Developed using a #strong("Svelte") frontend, #strong("Node.js") backend and a #strong("PostgreSQL") database, deployed on Kubernetes.
 ]
 
 = Education
 #resume-entry(
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
   location: "Fribourg",
-  date: "2021 - Today",
+  date: "September 2021 - September 2024",
   description: "Bachelor of Science in software engineering ",
 )
 #resume-entry(
