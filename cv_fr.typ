@@ -22,9 +22,9 @@
 #resume-skill-item(
   "Langages",
   (
-    strong("JavaScript / Node.js"),
-    strong("Java"),
-    strong("Golang"),
+    "JavaScript / Node.js",
+    "Java",
+    "Golang",
     "TypeScript",
     "Python",
     "Swift",
@@ -37,11 +37,11 @@
 #resume-skill-item(
   "Technologies",
   (
-    strong("Vue.js"),
-    strong("Springboot"),
-    strong("Svelte"),
-    strong("Express.js"),
-    strong("Développement Android et iOS"),
+    "Vue.js",
+    "Springboot",
+    "Svelte",
+    "Express.js",
+    "Développement Android et iOS",
     "Flutter",
     "Angular",
     "Docker",
@@ -52,7 +52,7 @@
     "Unity",
   ),
 )
-#resume-skill-item("Langues parlées", (strong("French"), strong("English"), "German"))
+#resume-skill-item("Langues parlées", ("Français (langue maternelle)", "Anglais (C1)", "Allemand (A2)"))
 
 = Expériences
 #resume-entry(
@@ -86,31 +86,6 @@
 ]
 #v(10pt)
 
-= Projets
-
-#resume-entry(
-  title: "Jeu 'ultimate Tic Tac Toe' avec IA",
-  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "Septembre 2023 - Janvier 2024",
-  description: "Developpeur/Designer",
-)
-
-#resume-item[
-  - Développement d'une IA pour le jeu Ultimate Tic Tac Toe en Go, utilisant #strong("Monte Carlo Tree Search") pour la prise de décision.
-  - Implémentation de la logique du jeu, vérification des conditions de victoire et la génération de mouvements valides.
-  - Utilisation de la bibliothèque #strong("Ebiten") pour les graphismes du jeu et l'interaction utilisateur.
-]
-
-#resume-entry(
-  title: "Bikers Airquality Webapp",
-  date: "Février 2024 - Juillet 2024",
-  description: "Projet de semestre et de bachelor",
-)
-#resume-item[
-  - Utilisation de données de pollution de l'air en temps réel pour créer des itinéraires avec des niveaux de pollution plus faibles.
-  - Développé avec un frontend Svelte, un backend Node.js et une base de données PostgreSQL, déployé sur Kubernetes.
-]
-
 = Formations
 #resume-entry(
   title: "Haute école d'ingénierie et d'architecture de Fribourg (HEIA-FR)",
@@ -136,5 +111,29 @@
   date: "Août 2013 - Décembre 2013",
   description: "Cours d'anglais",
 )
+= Projets
+
+#resume-entry(
+  title: "Jeu 'ultimate Tic Tac Toe' avec IA",
+  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
+  date: "Septembre 2023 - Janvier 2024",
+  description: "Developpeur/Designer",
+)
+
+#resume-item[
+  - Développement d'une IA pour le jeu Ultimate Tic Tac Toe en Go, utilisant #strong("Monte Carlo Tree Search") pour la prise de décision.
+  - Implémentation de la logique du jeu, vérification des conditions de victoire et la génération de mouvements valides.
+  - Utilisation de la bibliothèque #strong("Ebiten") pour les graphismes du jeu et l'interaction utilisateur.
+]
+
+#resume-entry(
+  title: "Bikers Airquality Webapp",
+  date: "Février 2024 - Juillet 2024",
+  description: "Projet de semestre et de bachelor",
+)
+#resume-item[
+  - Utilisation de données de pollution de l'air en temps réel pour créer des itinéraires avec des niveaux de pollution plus faibles.
+  - Développé avec un frontend Svelte, un backend Node.js et une base de données PostgreSQL, déployé sur Kubernetes.
+]
 = Loisirs
 Marche en montagne, jeux vidéos, self-hosting, films et séries, voyages...

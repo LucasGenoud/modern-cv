@@ -29,19 +29,18 @@
     "Vue.js",
     "Springboot",
     "Svelte",
-    "Express.js",
-    "Android / iOS development",
-    "Flutter",
-    "Angular",
-    "Docker",
-    "Kubernetes",
-    "Gitlab CI/CD",
     "Machine learning",
     "deep learning",
+    "Docker",
+    "Kubernetes",
+    "Flutter",
+    "Angular",
+    "Gitlab CI/CD",
+    "Android / iOS development",
     "Unity",
   ),
 )
-#resume-skill-item("Spoken languages", (strong("French"), strong("English"), "German"))
+#resume-skill-item("Spoken languages", ("French (native)", "English (C1)", "German (A2)"))
 
 = Experiences
 #resume-entry(
@@ -74,32 +73,6 @@
   Development of small C\# applications, client support, website maintenance and IT asset management.
 ]
 #v(10pt)
-
-= Projects
-
-#resume-entry(
-  title: "Ultimate Tic Tac Toe game with  AI",
-  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "September 2023 - January 2024",
-  description: "Designer/Developer",
-)
-
-#resume-item[
-  - Developed an AI for the game Ultimate Tic Tac Toe in #strong("Go"), using #strong("Monte Carlo Tree Search") for decision making.
-  - Implemented game logic, including win condition checking and valid move generation.
-  - Used the #strong("Ebiten") library for game graphics and user interaction.
-]
-
-#resume-entry(
-  title: "Bikers Airquality Webapp",
-  date: "February 2024 - July 2024",
-  description: "Semester and Bachelor project",
-)
-#resume-item[
-  - Using real time air PM2.5 concentration measurements, historical traffic data and elevation data, the app calculates the best route with low air pollution and elevation gain.
-  - Developed using a #strong("Svelte") frontend, #strong("Node.js") backend and a #strong("PostgreSQL") database, deployed on Kubernetes.
-]
-
 = Education
 #resume-entry(
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
@@ -125,5 +98,31 @@
   date: "August 2013 - December 2013",
   description: "English courses",
 )
+= Projects
+
+#resume-entry(
+  title: "Ultimate Tic Tac Toe game with  AI",
+  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
+  date: "September 2023 - January 2024",
+  description: "Designer/Developer",
+)
+
+#resume-item[
+  - Developed an AI for the game Ultimate Tic Tac Toe in #strong("Go"), using #strong("Monte Carlo Tree Search") for decision making.
+  - Implemented game logic, including win condition checking and valid move generation.
+  - Used the #strong("Ebiten") library for game graphics and user interaction.
+]
+
+#resume-entry(
+  title: "Bikers Airquality Webapp",
+  date: "February 2024 - July 2024",
+  description: "Semester and Bachelor project",
+)
+#resume-item[
+  - Using real time air PM2.5 concentration measurements, historical traffic data and elevation data, the app calculates the best route with low air pollution and elevation gain.
+  - Developed using a #strong("Svelte") frontend, #strong("Node.js") backend and a #strong("PostgreSQL") database, deployed on Kubernetes.
+]
+
+
 = Hobbies
 Hiking, video games, self-hosting, cinema, traveling
