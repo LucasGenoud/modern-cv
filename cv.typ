@@ -10,7 +10,7 @@
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
     address: "Fribourg",
-    positions: ("Software Engineer",),
+    positions: ("Software and AI Engineer",),
   ),
   date: datetime.today().display(),
   language: "en",
@@ -21,22 +21,21 @@
 = Skills
 #resume-skill-item(
   "languages",
-  ("JavaScript / Node.js", "Java", "Python", "Golang", "TypeScript", "Swift", "Kotlin", "SQL", "C#", "C++"),
+  ("Python", "Java", "JavaScript / Node.js", "Golang", "SQL", "C++"),
 )
 #resume-skill-item(
   "Hard skills",
   (
-    "Vue.js",
-    "Springboot",
-    "Svelte",
     "Algorithms and data structures",
-    "Machine learning (computer vision, semantic search and agentic AI)",
+    "Computer vision, semantic search, LLM and agentic AI)",
+    "Springboot",
     "Docker",
+    "databases (Relationnal, vectorial and noSQL)",
     "Kubernetes",
-    "Angular",
     "AWS",
-    "Gitlab CI/CD",
-    "Android / iOS development",
+    "Vue.js",
+    "CI/CD",
+    "Svelte",
   ),
 )
 #resume-skill-item("Spoken languages", ("French (native)", "English (C1)", "German (A2)"))
@@ -45,12 +44,12 @@
 #resume-entry(
   title: "Full-time Scientific collaborator",
   location: "Fribourg",
-  date: "October 2024 - Now",
+  date: "October 2024 - June 2026",
   description: "Institute of Artificial Intelligence and Complex Systems (iCoSys) at HEIA-FR",
 )
 #resume-item[Benchmarking and prototyping of a semantic search system for the Federal Supreme Court of Switzerland.]
-#resume-item[Conception and development of a system to create road assets inventories using computer vision models.]
-#resume-item[Conception and development of a agentic AI system to automate video feed analysis using AWS Bedrock.]
+#resume-item[Conception and development of microservices to generate road assets inventories using computer vision models.]
+#resume-item[Conception and development of an agentic AI system to automate video feed analysis using AWS Bedrock.]
 
 #v(10pt)
 
