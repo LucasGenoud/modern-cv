@@ -9,7 +9,7 @@
     github: none,
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
-    address: "Vuadens, Fribourg",
+    address: "Fribourg",
     positions: ("Software Engineer",),
   ),
   date: datetime.today().display(),
@@ -21,7 +21,7 @@
 = Skills
 #resume-skill-item(
   "languages",
-  ("JavaScript / Node.js", "Java", "Golang", "Python", "TypeScript", "Swift", "Kotlin", "SQL", "C#", "C++"),
+  ("JavaScript / Node.js", "Java", "Python", "Golang", "TypeScript", "Swift", "Kotlin", "SQL", "C#", "C++"),
 )
 #resume-skill-item(
   "Hard skills",
@@ -29,27 +29,38 @@
     "Vue.js",
     "Springboot",
     "Svelte",
-    "Machine learning",
-    "deep learning",
+    "Algorithms and data structures",
+    "Machine learning (computer vision, semantic search and agentic AI)",
     "Docker",
     "Kubernetes",
-    "Flutter",
     "Angular",
+    "AWS",
     "Gitlab CI/CD",
     "Android / iOS development",
-    "Unity",
   ),
 )
 #resume-skill-item("Spoken languages", ("French (native)", "English (C1)", "German (A2)"))
 
 = Experiences
 #resume-entry(
-  title: "Auxiliary",
+  title: "Full-time Scientific collaborator",
+  location: "Fribourg",
+  date: "October 2024 - Now",
+  description: "Institute of Artificial Intelligence and Complex Systems (iCoSys) at HEIA-FR",
+)
+#resume-item[Benchmarking and prototyping of a semantic search system for the Federal Supreme Court of Switzerland.]
+#resume-item[Conception and development of a system to create road assets inventories using computer vision models.]
+#resume-item[Conception and development of a agentic AI system to automate video feed analysis using AWS Bedrock.]
+
+#v(10pt)
+
+#resume-entry(
+  title: "Part-time Auxiliary during Bachelor's degree",
   location: "Fribourg",
   date: "August 2022 - June 2024",
-  description: "Part time Auxiliary for the iSIS institute ",
+  description: "Institute of Smart and Secured Systems (iSIS) at HEIA-FR ",
 )
-#resume-item[Conception and improvement of diverse applications in VUE.JS and Flutter.]
+#resume-item[Conception and improvement of multiple applications in VUE.JS and Flutter.]
 #v(10pt)
 
 #resume-entry(
@@ -70,9 +81,10 @@
   description: "Horizon France SAS",
 )
 #resume-item[
-  Development of small C\# applications, client support, website maintenance and IT asset management.
+  Development of small C\# applications, client support, website maintenance and IT assets management.
 ]
 #v(10pt)
+
 = Education
 #resume-entry(
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
@@ -95,34 +107,16 @@
 #resume-entry(
   title: "College of marin",
   location: "Novato, California",
-  date: "August 2013 - December 2013",
+  date: "August 2013 - December 2014",
   description: "English courses",
 )
-= Projects
 
+= Awards
 #resume-entry(
-  title: "Ultimate Tic Tac Toe game with  AI",
-  location: [#github-link("LucasGenoud/ultimate-tic-tac-toe")],
-  date: "September 2023 - January 2024",
-  description: "Designer/Developer",
+  title: "Swiss Engineering, section Fribourg",
+  date: "November 2024",
+  description: "Received the Award of Excellence for Bachelor's Final Project",
 )
-
-#resume-item[
-  - Developed an AI for the game Ultimate Tic Tac Toe in #strong("Go"), using #strong("Monte Carlo Tree Search") for decision making.
-  - Implemented game logic, including win condition checking and valid move generation.
-  - Used the #strong("Ebiten") library for game graphics and user interaction.
-]
-
-#resume-entry(
-  title: "Bikers Airquality Webapp",
-  date: "February 2024 - July 2024",
-  description: "Semester and Bachelor project",
-)
-#resume-item[
-  - Using real time air PM2.5 concentration measurements, historical traffic data and elevation data, the app calculates the best route with low air pollution and elevation gain.
-  - Developed using a #strong("Svelte") frontend, #strong("Node.js") backend and a #strong("PostgreSQL") database, deployed on Kubernetes.
-]
-
 
 = Hobbies
-Hiking, video games, self-hosting, cinema, traveling
+Hiking, video games, photography, self-hosting, cinema, traveling
