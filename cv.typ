@@ -10,7 +10,7 @@
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
     address: "Fribourg",
-    positions: ("Software and AI Engineer",),
+    positions: ("Software and ML Engineer",),
   ),
   date: datetime.today().display(),
   language: "en",
@@ -21,7 +21,7 @@
 = Skills
 #resume-skill-item(
   "languages",
-  ("Python", "Java", "JavaScript / Node.js", "Golang", "SQL", "C++"),
+  ("Python", "Java", "JavaScript / Node.js", "Golang", "SQL"),
 )
 #resume-skill-item(
   "Hard skills",
@@ -30,6 +30,7 @@
     "Computer vision, semantic search, LLM and agentic AI)",
     "Springboot",
     "Docker",
+    "microservices architecture",
     "databases (Relationnal, vectorial and noSQL)",
     "Kubernetes",
     "AWS",
@@ -49,7 +50,7 @@
 )
 #resume-item[Benchmarking and prototyping of a semantic search system for the Federal Supreme Court of Switzerland.]
 #resume-item[Conception and development of microservices to generate road assets inventories using computer vision models.]
-#resume-item[Conception and development of an agentic AI system to automate video feed analysis using AWS Bedrock.]
+#resume-item[Conception and development of an agentic AI system to automate video feed analysis using AWS Bedrock and vision models.]
 
 #v(10pt)
 
