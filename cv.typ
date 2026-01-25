@@ -27,15 +27,15 @@
   "Hard skills",
   (
     "Algorithms and data structures",
-    "Computer vision, semantic search, LLM and agentic AI)",
-    "Springboot",
+    "Computer vision, semantic search, LLMs and agentic AI",
+    "Java",
     "Docker",
     "microservices architecture",
     "databases (Relationnal, vectorial and noSQL)",
     "Kubernetes",
+    "Gitlab CI/CD",
     "AWS",
     "Vue.js",
-    "CI/CD",
     "Svelte",
   ),
 )
@@ -49,8 +49,8 @@
   description: "Institute of Artificial Intelligence and Complex Systems (iCoSys) at HEIA-FR",
 )
 #resume-item[Benchmarking and prototyping of a semantic search system for the Federal Supreme Court of Switzerland.]
-#resume-item[Conception and development of microservices to generate road assets inventories using computer vision models.]
 #resume-item[Conception and development of an agentic AI system to automate video feed analysis using AWS Bedrock and vision models.]
+#resume-item[Conception and development of microservices to generate road assets inventories using fine-tuned computer vision models.]
 
 #v(10pt)
 
@@ -90,7 +90,7 @@
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
   location: "Fribourg",
   date: "September 2021 - September 2024",
-  description: "Bachelor of Science in software engineering ",
+  description: "Bachelor of Science in software engineering, Award of Excellence for the Final Project by Swiss Engineering (Fribourg section).",
 )
 #resume-entry(
   title: "EMF",
@@ -110,13 +110,5 @@
   date: "August 2013 - December 2014",
   description: "English courses",
 )
-
-= Awards
-#resume-entry(
-  title: "Swiss Engineering, section Fribourg",
-  date: "November 2024",
-  description: "Received the Award of Excellence for Bachelor's Final Project",
-)
-
 = Hobbies
-Hiking, video games, photography, self-hosting, cinema, traveling
+Hiking, cinema, running, photography, self-hosting, traveling, video games

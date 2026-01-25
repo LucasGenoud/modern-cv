@@ -221,7 +221,7 @@
           #set text(
             size: 32pt,
             style: "normal",
-            font: ("Roboto"),
+            font: "Roboto",
           )
           #text(fill: accent-color, weight: "thin")[#author.firstname]
           #text(weight: "bold")[#author.lastname]
@@ -296,7 +296,7 @@
   if author.profile-picture != none {
     grid(
       columns: (100pt, auto),
-      rows: (100pt),
+      rows: 100pt,
       gutter: 10pt,
       [#author.profile-picture],
       [
@@ -314,7 +314,6 @@
   }
 
   body
-
 }
 
 /// The base item for resume entries.
@@ -429,7 +428,7 @@
   )
 
   set text(
-    font: ("Source Sans Pro"),
+    font: "Source Sans Pro",
     lang: language,
     size: 11pt,
     fill: color-darkgray,
@@ -495,7 +494,7 @@
           #set text(
             size: 32pt,
             style: "normal",
-            font: ("Roboto"),
+            font: "Roboto",
           )
           #text(accent-color, weight: "thin")[#author.firstname]
           #text(weight: "bold")[#author.lastname]
@@ -576,7 +575,7 @@
   let letter-heading = {
     grid(
       columns: (1fr, 2fr),
-      rows: (100pt),
+      rows: 100pt,
       align(left + horizon)[
         #block(
           clip: true,
