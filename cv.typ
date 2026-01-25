@@ -24,22 +24,41 @@
   ("Python", "Java", "JavaScript / Node.js", "Golang", "SQL"),
 )
 #resume-skill-item(
-  "Hard Skills",
+  "Technical Stack",
   (
-    "Algorithms and data structures",
     "Docker",
     "Microservices architecture",
     "Computer vision, semantic search, LLMs and agentic AI",
-    "Databases (Relational, Vectorial and NoSQL)",
+    "Databases (Relational, Vector and NoSQL)",
     "Kubernetes",
     "GitLab CI/CD",
-    "AWS",
+    "AWS (Lambda, Bedrock, S3)",
     "Vue.js",
     "Svelte",
   ),
 )
 #resume-skill-item("Spoken Languages", ("French (native)", "English (C1)", "German (A2)"))
 
+/*
+
+#resume-skill-item(
+  "Languages",
+  ("Python", "Java", "Golang", "SQL", "Node.js"),
+)
+#resume-skill-item(
+  "Backend & Infrastructure",
+  ("Microservices", "Docker", "Kubernetes", "AWS", "GitLab CI/CD"),
+)
+#resume-skill-item(
+  "Data & AI",
+  ("PostgreSQL", "NoSQL", "Vector DBs", "LLMs", "Agentic AI", "Computer Vision"),
+)
+#resume-skill-item(
+  "Frontend",
+  ("Vue.js", "Svelte", "JavaScript/TypeScript"),
+)
+
+*/
 = Experiences
 #resume-entry(
   title: "Full-time Scientific Collaborator",
@@ -47,9 +66,9 @@
   date: "October 2024 - June 2026",
   description: "Institute of Artificial Intelligence and Complex Systems (iCoSys) at HEIA-FR",
 )
-#resume-item[Concieved and benchmarked a semantic search system prototype for the Federal Supreme Court of Switzerland using embedding models.]
-#resume-item[Engineered an agentic AI system using AWS Bedrock and Vision Language models (VLMs) to automate analysis of archived video feeds.]
-#resume-item[Architected and developed a microservices-based pipeline for road asset inventory, utilizing fine-tuned computer vision models to automate feature detection.]
+#resume-item[Designed and benchmarked a semantic search system prototype for the Federal Supreme Court of Switzerland.]
+#resume-item[Engineered an agentic AI system using AWS Bedrock and Vision Language models (VLMs) to help analysis of video feeds.]
+#resume-item[Architected and developed a microservices-based pipeline to create precise road asset inventory, using fine-tuned computer vision models to automate feature detection.]
 
 #v(10pt)
 
@@ -57,9 +76,9 @@
   title: "Part-time Auxiliary during Bachelor's degree",
   location: "Fribourg",
   date: "August 2022 - June 2024",
-  description: "Institute of Smart and Secured Systems (iSIS) at HEIA-FR",
+  description: "Institute of Smart and Secure Systems (iSIS) at HEIA-FR",
 )
-#resume-item[Conception and improvement of multiple applications in Vue.js and Flutter.]
+#resume-item[Design and improvement of multiple applications in Vue.js and Flutter.]
 #v(10pt)
 
 #resume-entry(
@@ -69,7 +88,7 @@
   description: "GANTT.IO",
 )
 #resume-item[
-  Conception and development of a web application specialized in the creation of Gantt diagrams in Vue.js.
+  Conceptualization and development of a web application specialized in the creation of Gantt diagrams in Vue.js.
 ]
 #v(10pt)
 
@@ -89,7 +108,7 @@
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
   location: "Fribourg",
   date: "September 2021 - September 2024",
-  description: "Bachelor of Science in Software Engineering, Award of Excellence for the Final Project by Swiss Engineering (Fribourg section).",
+  description: "Bachelor of Science in Software Engineering. Excellence Award (Final Project) by Swiss Engineering Fribourg section.",
 )
 #resume-entry(
   title: "EMF",

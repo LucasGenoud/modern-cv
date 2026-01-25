@@ -8,12 +8,8 @@
 #let default-accent-color = rgb("#262F99")
 
 // const icons
-#let linkedin-icon = box(
-  fa-icon("linkedin", fa-set: "Brands", fill: color-darknight),
-)
-#let github-icon = box(
-  fa-icon("github", fa-set: "Brands", fill: color-darknight),
-)
+#let linkedin-icon = box(fa-icon("linkedin", fa-set: "Brands", fill: color-darknight))
+#let github-icon = box(fa-icon("github", fa-set: "Brands", fill: color-darknight))
 // for some reason this icon doesn't work with fa-icon, so we use the local version
 #let phone-icon = box(image("assets/icons/square-phone-solid.svg"))
 #let email-icon = box(fa-icon("envelope", fill: color-darknight))
@@ -238,9 +234,7 @@
     )
     align(left)[
       #smallcaps[
-        #author.positions.join(
-          text[#"  "#sym.dot.c#"  "],
-        )
+        #author.positions.join(text[#"  "#sym.dot.c#"  "])
       ]
     ]
   }
@@ -326,8 +320,13 @@
     weight: "light",
     fill: color-darknight,
   )
-  set par(leading: 0.65em)
-  body
+  // Leading controls space between lines within the same item
+  set par(leading: 0.45em, justify: true)
+
+  // Use a block with small margins to control spacing between bullet points
+  block(above: 1.0em, below: 0.4em)[
+    #body
+  ]
 }
 
 /// The base item for resume entries. This formats the item for the resume entries. Typically your body would be a bullet list of items. Could be your responsibilities at a company or your academic achievements in an educational background section.
@@ -511,9 +510,7 @@
     )
     align(right)[
       #smallcaps[
-        #author.positions.join(
-          text[#"  "#sym.dot.c#"  "],
-        )
+        #author.positions.join(text[#"  "#sym.dot.c#"  "])
       ]
     ]
   }
@@ -600,7 +597,8 @@
       #pad(bottom: 2em)[
         #text(weight: "light")[#linguify("sincerely", from: lang_data)#sym.comma] \
         #text(weight: "bold")[#author.firstname #author.lastname] \ \
-        #text(weight: "light", style: "italic")[ #linguify(
+        #text(weight: "light", style: "italic")[
+          #linguify(
             "attached",
             from: lang_data,
           )#sym.colon #linguify("curriculum-vitae", from: lang_data)]
