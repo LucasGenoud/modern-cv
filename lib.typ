@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.1.0": *
+#import "@preview/fontawesome:0.5.0": *
 #import "@preview/linguify:0.4.0": *
 
 // const color
@@ -8,8 +8,8 @@
 #let default-accent-color = rgb("#262F99")
 
 // const icons
-#let linkedin-icon = box(fa-icon("linkedin", fa-set: "Brands", fill: color-darknight))
-#let github-icon = box(fa-icon("github", fa-set: "Brands", fill: color-darknight))
+#let linkedin-icon = box(fa-icon("linkedin", fill: color-darknight))
+#let github-icon = box(fa-icon("github", fill: color-darknight))
 // for some reason this icon doesn't work with fa-icon, so we use the local version
 #let phone-icon = box(image("assets/icons/square-phone-solid.svg"))
 #let email-icon = box(fa-icon("envelope", fill: color-darknight))
@@ -57,7 +57,7 @@
   set box(height: 11pt)
 
   align(right + horizon)[
-    #fa-icon("github", fa-set: "Brands", fill: color-darkgray) #link(
+    #fa-icon("github", fill: color-darkgray) #link(
       "https://github.com/" + github-path,
       github-path,
     )
@@ -146,7 +146,7 @@
   )
 
   set text(
-    font: ("Source Sans Pro", "Source Sans 3"),
+    font: ("Source Sans 3",),
     lang: language,
     size: 11pt,
     fill: color-darkgray,
@@ -160,10 +160,7 @@
   )
 
   // set paragraph spacing
-  show par: set block(
-    above: 0.75em,
-    below: 0.75em,
-  )
+  set par(spacing: 0.75em)
   set par(justify: true)
 
   set heading(
@@ -427,7 +424,7 @@
   )
 
   set text(
-    font: "Source Sans Pro",
+    font: ("Source Sans 3",),
     lang: language,
     size: 11pt,
     fill: color-darkgray,
@@ -459,10 +456,7 @@
   )
 
   // set paragraph spacing
-  show par: set block(
-    above: 0.75em,
-    below: 0.75em,
-  )
+  set par(spacing: 0.75em)
   set par(justify: true)
 
   set heading(

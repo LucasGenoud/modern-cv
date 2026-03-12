@@ -1,0 +1,137 @@
+﻿typst : warning: 
+unknown font family: 
+font awesome 6 pro
+At line:1 char:1
++ typst compile cv.typ 
+2>&1 | Out-File 
+-Encoding utf8 
+typst_output.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (warning: unkn   
+ ow...t awesome 6 p    
+ro:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+   ΓöîΓöÇ @preview/font
+awesome:0.4.0\lib-impl.
+typ:20:10
+   Γöé  
+20 Γöé       font: (
+   Γöé Γò¡ΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ^
+21 Γöé Γöé       "Font 
+Awesome 6 Free" + if 
+solid { " Solid" },
+22 Γöé Γöé       "Font 
+Awesome 6 Brands",
+23 Γöé Γöé       // 
+TODO: Help needed to 
+test following fonts
+   ┬╖ Γöé
+27 Γöé Γöé       "Font 
+Awesome 6 Sharp 
+Duotone" + if solid { 
+" Solid" },
+28 Γöé Γöé     ),
+   Γöé 
+Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ^
+
+warning: unknown font 
+family: font awesome 6 
+duotone
+   ΓöîΓöÇ @preview/font
+awesome:0.4.0\lib-impl.
+typ:20:10
+   Γöé  
+20 Γöé       font: (
+   Γöé Γò¡ΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ^
+21 Γöé Γöé       "Font 
+Awesome 6 Free" + if 
+solid { " Solid" },
+22 Γöé Γöé       "Font 
+Awesome 6 Brands",
+23 Γöé Γöé       // 
+TODO: Help needed to 
+test following fonts
+   ┬╖ Γöé
+27 Γöé Γöé       "Font 
+Awesome 6 Sharp 
+Duotone" + if solid { 
+" Solid" },
+28 Γöé Γöé     ),
+   Γöé 
+Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ^
+
+warning: unknown font 
+family: font awesome 6 
+sharp
+   ΓöîΓöÇ @preview/font
+awesome:0.4.0\lib-impl.
+typ:20:10
+   Γöé  
+20 Γöé       font: (
+   Γöé Γò¡ΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ^
+21 Γöé Γöé       "Font 
+Awesome 6 Free" + if 
+solid { " Solid" },
+22 Γöé Γöé       "Font 
+Awesome 6 Brands",
+23 Γöé Γöé       // 
+TODO: Help needed to 
+test following fonts
+   ┬╖ Γöé
+27 Γöé Γöé       "Font 
+Awesome 6 Sharp 
+Duotone" + if solid { 
+" Solid" },
+28 Γöé Γöé     ),
+   Γöé 
+Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ^
+
+warning: unknown font 
+family: font awesome 6 
+sharp duotone
+   ΓöîΓöÇ @preview/font
+awesome:0.4.0\lib-impl.
+typ:20:10
+   Γöé  
+20 Γöé       font: (
+   Γöé Γò¡ΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ^
+21 Γöé Γöé       "Font 
+Awesome 6 Free" + if 
+solid { " Solid" },
+22 Γöé Γöé       "Font 
+Awesome 6 Brands",
+23 Γöé Γöé       // 
+TODO: Help needed to 
+test following fonts
+   ┬╖ Γöé
+27 Γöé Γöé       "Font 
+Awesome 6 Sharp 
+Duotone" + if solid { 
+" Solid" },
+28 Γöé Γöé     ),
+   Γöé 
+Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇ^
+
+warning: unknown font 
+family: source sans pro
+    ΓöîΓöÇ \\?\C:\git\m
+odern-cv\lib.typ:149:10
+    Γöé
+149 Γöé     font: 
+("Source Sans Pro", 
+"Source Sans 3"),
+    Γöé           ^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
+
