@@ -19,12 +19,12 @@
 // layout utility
 #let __justify_align(left_body, right_body) = {
   block[
-    #left_body
-    #box(width: 1fr)[
-      #align(right)[
-        #right_body
-      ]
-    ]
+    #grid(
+      columns: (1fr, auto),
+      gutter: 1em,
+      align(left)[#left_body],
+      align(right)[#right_body]
+    )
   ]
 }
 
@@ -321,7 +321,7 @@
   set par(leading: 0.45em, justify: true)
 
   // Use a block with small margins to control spacing between bullet points
-  block(above: 1.0em, below: 0.4em)[
+  block(above: 0.6em, below: 0.4em)[
     #body
   ]
 }

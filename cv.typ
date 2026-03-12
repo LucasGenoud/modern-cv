@@ -28,12 +28,14 @@
   (
     "Docker",
     "Microservices architecture",
-    "Computer vision, semantic search, LLMs and agentic AI",
+    "Computer vision",
+    "Semantic search",
+    "LLMs and agentic AI",
     "Databases (Relational, Vector and NoSQL)",
     "Kubernetes",
     "GitLab CI/CD",
-    "AWS (Lambda, Bedrock, S3)",
     "Vue.js",
+    "AWS (Lambda, Bedrock, S3)",
     "Svelte",
   ),
 )
@@ -67,8 +69,12 @@
   description: "Institute of Artificial Intelligence and Complex Systems (iCoSys) at HEIA-FR",
 )
 #resume-item[Designed and benchmarked a semantic search system prototype for the Federal Supreme Court of Switzerland.]
+#v(2pt)
+
 #resume-item[Engineered an agentic AI system using AWS Bedrock and Vision Language models (VLMs) to help analysis of video feeds.]
-#resume-item[Architected and developed a microservices-based pipeline to create precise road asset inventory, using fine-tuned computer vision models to automate feature detection.]
+#v(2pt)
+
+#resume-item[Architected and developed a microservices-based pipelines to create precise road asset inventory, using fine-tuned computer vision models to automate feature detection.]
 
 #v(10pt)
 
@@ -108,25 +114,30 @@
   title: "School of Engineering and Architecture of Fribourg (HEIA-FR)",
   location: "Fribourg",
   date: "September 2021 - September 2024",
-  description: "Bachelor of Science in Software Engineering. Excellence Award (Final Project) by Swiss Engineering Fribourg section.",
+  description: "Bachelor of Science in Software Engineering.",
 )
+#resume-item[Received the Excellence Award by Swiss Engineering Fribourg section.]
+#v(5pt)
 #resume-entry(
   title: "EMF",
   location: "Fribourg",
   date: "September 2020 - July 2021",
   description: "Technical Federal Vocational Baccalaureate (FVB)",
 )
+#v(5pt)
 #resume-entry(
   title: "EPAI",
   location: "Fribourg",
   date: "August 2014 - July 2018",
   description: "Computer Science apprenticeship (VET)",
 )
+#v(5pt)
 #resume-entry(
   title: "College of Marin",
   location: "Novato, California",
   date: "August 2013 - December 2014",
   description: "English courses",
 )
+#v(5pt)
 = Hobbies
 Hiking, cinema, running, photography, self-hosting, traveling, video games
