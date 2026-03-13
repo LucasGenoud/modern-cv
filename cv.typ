@@ -6,62 +6,41 @@
     lastname: "Genoud",
     email: "lucas.genoud@protonmail.ch",
     phone: "079 923 56 25",
-    github: none,
+    github: "https://github.com/LucasGenoud",
     profile-picture: image("profile.jpg"),
     linkedin: "lucas-genoud",
     address: "Fribourg",
-    positions: ("Software and ML Engineer",),
+    positions: ("SOFTWARE & ML ENGINEER",),
   ),
   date: datetime.today().display(),
   language: "en",
-  accent-color: "#007BA7",
+  accent-color: rgb("#007BA7"),
   colored-headers: true,
 )
 
 = Skills
 #resume-skill-item(
-  "Languages",
-  ("Python", "Java", "JavaScript / Node.js", "Golang", "SQL"),
-)
-#resume-skill-item(
-  "Technical Stack",
-  (
-    "Docker",
-    "Microservices architecture",
-    "Computer vision",
-    "Semantic search",
-    "LLMs and agentic AI",
-    "Databases (Relational, Vector and NoSQL)",
-    "Kubernetes",
-    "GitLab CI/CD",
-    "Vue.js",
-    "AWS (Lambda, Bedrock, S3)",
-    "Svelte",
-  ),
-)
-#resume-skill-item("Spoken Languages", ("French (native)", "English (C1)", "German (A2)"))
-
-/*
-
-#resume-skill-item(
-  "Languages",
-  ("Python", "Java", "Golang", "SQL", "Node.js"),
-)
-#resume-skill-item(
-  "Backend & Infrastructure",
-  ("Microservices", "Docker", "Kubernetes", "AWS", "GitLab CI/CD"),
+  "Programming languages",
+  ("Python", "Java", "JavaScript", "Node.js", "Golang", "SQL"),
 )
 #resume-skill-item(
   "Data & AI",
-  ("PostgreSQL", "NoSQL", "Vector DBs", "LLMs", "Agentic AI", "Computer Vision"),
+  ("LLMs", "Agentic AI", "Computer Vision", "PostgreSQL", "NoSQL", "Vector DBs"),
+)
+#resume-skill-item(
+  "Backend & Infrastructure",
+  ("Microservices", "Docker", "Kubernetes", "AWS", "GitLab CI/CD", "Spring Boot", "LangGraph"),
 )
 #resume-skill-item(
   "Frontend",
-  ("Vue.js", "Svelte", "JavaScript/TypeScript"),
+  ("Vue.js", "Svelte", "Flutter"),
 )
+#resume-skill-item("Spoken Languages", ("French (native)", "English (C1)", "German (A2)"))
 
-*/
-= Experiences
+
+#v(10pt)
+
+= Professional Experience
 #resume-entry(
   title: "Full-time Scientific Collaborator",
   location: "Fribourg",
@@ -116,7 +95,8 @@
   date: "September 2021 - September 2024",
   description: "Bachelor of Science in Software Engineering.",
 )
-#resume-item[Received the Excellence Award by Swiss Engineering Fribourg section.]
+#resume-item[Bachelor's Project: Developed a cyclist navigation web app utilizing real-time sensor measurements and historical trends to generate low-pollution, low-traffic and low elevation gains itineraries in the city of Fribourg.]
+#resume-item[Honored with the Swiss Engineering Fribourg Excellence Award]
 #v(5pt)
 #resume-entry(
   title: "EMF",
@@ -140,4 +120,4 @@
 )
 #v(5pt)
 = Hobbies
-Hiking, cinema, running, photography, self-hosting, traveling, video games
+Hiking, cinema, running, photography, self-hosting, traveling.

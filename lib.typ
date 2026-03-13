@@ -22,8 +22,7 @@
     #grid(
       columns: (1fr, auto),
       gutter: 1em,
-      align(left)[#left_body],
-      align(right)[#right_body]
+      align(left)[#left_body], align(right)[#right_body],
     )
   ]
 }
@@ -249,45 +248,40 @@
   let contacts = {
     set box(height: 12pt)
 
-    let separator = box(width: 5pt)
+    let separator = box(width: 10pt)[ ]
 
     align(left)[
       #set text(
-        size: 12pt,
+        size: 11pt,
         weight: "regular",
         style: "normal",
       )
       #block[
         #align(horizon)[
-          #if author.phone != none [
-            #phone-icon
-            #box[#text(author.phone)]
-            #separator
-          ]
-          #if author.email != none [
-            #email-icon
-            #box[#link("mailto:" + author.email)[#author.email]]
-          ]
-          #if author.github != none [
-            #separator
-            #github-icon
-            #box[#link("https://github.com/" + author.github)[#author.github]]
-          ]
-          #if author.linkedin != none [
-            #separator
-            #linkedin-icon
-            #box[
-              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
-            ]
-          ]
+          #let contact_items = ()
+          #if author.phone != none {
+            contact_items.push(box[#phone-icon #h(3pt) #text(author.phone)])
+          }
+          #if author.email != none {
+            contact_items.push(box[#email-icon #h(3pt) #link("mailto:" + author.email)[#author.email]])
+          }
+          #if author.github != none {
+            contact_items.push(box[#github-icon #h(3pt) #link("https://github.com/" + author.github)[#author.github]])
+          }
+          #if author.linkedin != none {
+            contact_items.push(box[#linkedin-icon #h(3pt) #link(
+                "https://www.linkedin.com/in/" + author.linkedin,
+              )[#author.linkedin]])
+          }
+          #contact_items.join(separator)
         ]
       ]
     ]
   }
   if author.profile-picture != none {
     grid(
-      columns: (100pt, auto),
-      rows: 100pt,
+      columns: (115pt, auto),
+      rows: 115pt,
       gutter: 10pt,
       [#author.profile-picture],
       [
@@ -374,7 +368,7 @@
 
   pad[
     #grid(
-      columns: (20fr, 80fr),
+      columns: (30fr, 80fr),
       gutter: 10pt,
       align(right)[
         #set text(hyphenate: false)

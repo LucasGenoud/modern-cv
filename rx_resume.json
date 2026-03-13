@@ -1,0 +1,157 @@
+{
+  "basics": {
+    "name": "Lucas Genoud",
+    "label": "SOFTWARE AND ML ENGINEER",
+    "email": "lucas.genoud@protonmail.ch",
+    "phone": "079 923 56 25",
+    "url": "",
+    "summary": "",
+    "location": {
+      "city": "Fribourg",
+      "countryCode": "CH"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "lucas-genoud",
+        "url": "https://linkedin.com/in/lucas-genoud"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "INSTITUTE OF ARTIFICIAL INTELLIGENCE AND COMPLEX SYSTEMS (ICOSYS) AT HEIA-FR",
+      "position": "Full-time Scientific Collaborator",
+      "startDate": "2024-10",
+      "endDate": "2026-06",
+      "location": "Fribourg",
+      "highlights": [
+        "Designed and benchmarked a semantic search system prototype for the Federal Supreme Court of Switzerland.",
+        "Engineered an agentic AI system using AWS Bedrock and Vision Language models (VLMs) to help analysis of video feeds.",
+        "Architected and developed a microservices-based pipeline to create precise road asset inventory, using fine-tuned computer vision models to automate feature detection."
+      ]
+    },
+    {
+      "name": "INSTITUTE OF SMART AND SECURE SYSTEMS (ISIS) AT HEIA-FR",
+      "position": "Part-time Auxiliary during Bachelor's degree",
+      "startDate": "2022-08",
+      "endDate": "2024-06",
+      "location": "Fribourg",
+      "highlights": [
+        "Design and improvement of multiple applications in Vue.js and Flutter."
+      ]
+    },
+    {
+      "name": "GANTT.IO",
+      "position": "Full-stack Developer",
+      "startDate": "2018-08",
+      "endDate": "2020-08",
+      "location": "Fribourg",
+      "highlights": [
+        "Conceptualization and development of a web application specialized in the creation of Gantt diagrams in Vue.js."
+      ]
+    },
+    {
+      "name": "HORIZON FRANCE SAS",
+      "position": "Computer Science Apprentice",
+      "startDate": "2014-09",
+      "endDate": "2018-07",
+      "location": "Fribourg, Villaz-Saint-Pierre",
+      "highlights": [
+        "Development of small C# applications, client support, website maintenance and IT asset management."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "School of Engineering and Architecture of Fribourg (HEIA-FR)",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09",
+      "endDate": "2024-09",
+      "location": "Fribourg"
+    },
+    {
+      "institution": "EMF",
+      "area": "Technical Federal Vocational Baccalaureate (FVB)",
+      "studyType": "Vocational Baccalaureate",
+      "startDate": "2020-09",
+      "endDate": "2021-07",
+      "location": "Fribourg"
+    },
+    {
+      "institution": "EPAI",
+      "area": "Computer Science Apprenticeship (VET)",
+      "studyType": "Apprenticeship",
+      "startDate": "2014-08",
+      "endDate": "2018-07",
+      "location": "Fribourg"
+    },
+    {
+      "institution": "College of Marin",
+      "area": "English Courses",
+      "studyType": "Language Course",
+      "startDate": "2013-08",
+      "endDate": "2014-12",
+      "location": "Novato, California"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Excellence Award (Final Project)",
+      "date": "2024-09",
+      "awarder": "Swiss Engineering Fribourg Section",
+      "summary": "Awarded for the final Bachelor's project."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "Java", "JavaScript/Node.js", "Golang", "SQL"]
+    },
+    {
+      "name": "Technologies & Tools",
+      "keywords": [
+        "Docker",
+        "Microservices architecture",
+        "Computer vision",
+        "Semantic search",
+        "LLMs and agentic AI",
+        "Databases (Relational, Vector and NoSQL)",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "AWS (Lambda, Bedrock, S3)",
+        "Vue.js",
+        "Svelte"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "German",
+      "fluency": "A2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Hiking",
+        "Cinema",
+        "Running",
+        "Photography",
+        "Self-hosting",
+        "Traveling",
+        "Video games"
+      ]
+    }
+  ]
+}
